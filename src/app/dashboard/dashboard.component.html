@@ -1,0 +1,20 @@
+<!--<p *ngFor="let eachItem of itemList">{{ eachItem }}</p> 
+<div *ngFor="let eachItem of detailsFromParent">
+    <p>{{ eachItem.name }}</p>
+    <span>Price in Rupees : </span> {{ eachItem.price}} <br/>
+    <span>Features : </span><br/>
+    Bluetooth : <span>{{ eachItem.features.bluetooth }}</span> <br/>
+    Wifi : <span>{{ eachItem.features.wifi }}</span> <br/>
+    Camera : <span>{{ eachItem.features.camera }}</span> <br/>
+    <button (click) = "AddToCart(eachItem)">Add to Cart</button>
+</div>
+
+<div class="product-details" *ngFor = "let eachItem of ProductDetails">
+    <div> {{eachItem.mobile}}</div>
+    <img class="prod-img" *ngFor = "let eachImg of eachItem.num" src="{{ eachImg }}" alt="" width="80px" height="80px" ><br/>
+    Price: <span>{{ eachItem.Price }}</span>
+    Features: <br/>
+    Bluetooth: <span *ngIf="eachItem.features.bluetooth">yes</span><span *ngIf="eachItem.features.bluetooth">No</span><br/>
+  wifi: <span *ngIf="eachItem.features.wifi">yes</span><span *ngIf="eachItem.features.wifi">No</span><br/>
+  <button (click)="AddToCart(eachItem)">Add to Cart </button>
+</div>-->

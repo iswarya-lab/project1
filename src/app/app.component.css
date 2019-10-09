@@ -1,0 +1,30 @@
+.cart{
+    float:right;
+}
+.fl-lft {
+  float: left;
+}
+.side-menu{
+    width: 150px;
+    background-color: grey;
+    height: 700px;
+}
+.logo{
+    height: 50px;
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
+.side-menu-item{
+    height: 30px;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.inline{
+    display: inline-block;
+    margin-left: 300px;
+}
+.line{
+    margin-top: 13px;
+    border-color: black;
+    border-width: 1px;
+}

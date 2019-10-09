@@ -1,0 +1,44 @@
+{
+    "data": [
+    {
+"Catogery": "Electricals",
+"Name": "IPhone",
+"Price": "45000",
+"img":[
+  "1.jpg","2.jpg"
+]
+},
+ {
+    "Catogery": "Electricals",
+    "Name": "hp laptop",
+    "Price": "65000",
+    "img":[
+      "3.jpg"
+    ]
+ },
+ {
+"Catogery": "clothing",
+"Name": "saree",
+"Price": "4500",
+"img":[
+  "1.jpg","2.jpg"
+]
+},    
+ {
+"Catogery": "clothing",
+"Name": "tshirts",
+"Price": "450",
+"img":[
+  "3.jpg","4.jpg"
+]
+} ,
+ {
+"Catogery": "Electricals",
+"Name": "Tesla",
+"Price": "1500000",
+"img":[
+  "4.jpg"
+]
+}  
+]
+}

@@ -1,0 +1,6 @@
+<div class="top" *ngFor = "let data of mydata">
+    <h3>{{ data.Name }}</h3>
+    <img *ngFor="let images of data.img" src="../../assets/images/{{image}}" alt="" width="70px" height="70px">  
+    <label class= "price" >Rs.{{data.Price }}</label><br>
+    <button class="align">Add to Cart</button>
+</div>
