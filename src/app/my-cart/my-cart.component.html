@@ -2,15 +2,15 @@
     <table>
         <thead>
             <tr>
-            <td>S.No</td><td>Product Name </td><td>Price</td>
+            <td>S.N0</td><td>Product Name </td><td>Price</td>
         </tr>
             </thead>
             <tbody>
-                <tr *ngFor= "let item of cartDetails"; let i = "index;" >
-                    <td>{{ i+1 }}</td><td>{{ item.Productname}}</td><td>{{item.Price}}</td>
+                <tr *ngFor= "let data of cartDetails" >
+                    <td>{{data.id}}</td><td>{{ data.Productname}}</td><td>{{data.Price}}</td>
                 </tr>
                 <tr>
-                    <td colspan="2">Total</td><td>{{ getTotal() }}</td>
+                    <td colspan="2">Total</td><td>{{ Total }}</td>
                     </tr>
                 </tbody>
                 </table>
