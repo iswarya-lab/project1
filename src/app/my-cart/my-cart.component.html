@@ -6,11 +6,11 @@
         </tr>
             </thead>
             <tbody>
-                <tr *ngFor= "let data of cartDetails" >
-                    <td>{{data.id}}</td><td>{{ data.Productname}}</td><td>{{data.Price}}</td>
+                <tr *ngFor="let datas of cartdetails">
+                    <td>{{datas.id}}</td><td>{{datas.Name}}</td><td>{{datas.Price}}</td>
                 </tr>
                 <tr>
-                    <td colspan="2">Total</td><td>{{ Total }}</td>
+                    <td colspan="2" >Total</td><td>{{ total }}</td>
                     </tr>
                 </tbody>
                 </table>

@@ -1,19 +1,143 @@
 {
-  "posts": [
+  "cart": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "Catogery": "Electricals",
+      "Name": "IPhone",
+      "Price": "45000",
+      "img": [
+        "1.jpg",
+        "2.jpg"
+      ],
+      "id": 1
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "Catogery": "Electricals",
+      "Name": "IPhone",
+      "Price": "45000",
+      "img": [
+        "1.jpg",
+        "2.jpg"
+      ],
+      "id": 2
+    },
+    {
+      "Catogery": "Electricals",
+      "Name": "IPhone",
+      "Price": "45000",
+      "img": [
+        "1.jpg",
+        "2.jpg"
+      ],
+      "id": 3
+    },
+    {
+      "Catogery": "Electricals",
+      "Name": "hp laptop",
+      "Price": "65000",
+      "img": [
+        "3.jpg"
+      ],
+      "id": 4
+    },
+    {
+      "Catogery": "Electricals",
+      "Name": "IPhone",
+      "Price": "45000",
+      "img": [
+        "1.jpg",
+        "2.jpg"
+      ],
+      "id": 5
+    },
+    {
+      "Catogery": "Electricals",
+      "Name": "IPhone",
+      "Price": "45000",
+      "img": [
+        "1.jpg",
+        "2.jpg"
+      ],
+      "id": 6
+    },
+    {
+      "Catogery": "Electricals",
+      "Name": "IPhone",
+      "Price": "45000",
+      "img": [
+        "1.jpg",
+        "2.jpg"
+      ],
+      "id": 7
+    },
+    {
+      "Catogery": "Electricals",
+      "Name": "IPhone",
+      "Price": "45000",
+      "img": [
+        "1.jpg",
+        "2.jpg"
+      ],
+      "id": 8
+    },
+    {
+      "Catogery": "Electricals",
+      "Name": "IPhone",
+      "Price": "45000",
+      "img": [
+        "1.jpg",
+        "2.jpg"
+      ],
+      "id": 9
+    },
+    {
+      "Catogery": "Electricals",
+      "Name": "IPhone",
+      "Price": "45000",
+      "img": [
+        "1.jpg",
+        "2.jpg"
+      ],
+      "id": 10
+    },
+    {
+      "Catogery": "Electricals",
+      "Name": "IPhone",
+      "Price": "45000",
+      "img": [
+        "1.jpg",
+        "2.jpg"
+      ],
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "id": 17
+    },
+    {
+      "id": 18
+    },
+    {
+      "id": 19
+    },
+    {
+      "id": 20
+    },
+    {
+      "id": 21
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

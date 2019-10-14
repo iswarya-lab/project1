@@ -21,13 +21,13 @@ export class ProductDetailsComponent implements OnInit {
         else{
           filter='clothing';
         }
-        this.service.getElectricalsProductsFromData() .subscribe((data:any)=>{
+        this.service.getElectricalsProductsFromData().subscribe((data:any)=>{
        this.mydata = data.filter (a =>a.Catogery == filter);
         console.log(this.mydata);
         });
   }
   Addtocart(data){
-    this.service.addProductsTocart(data).subscribe((result)=>{
+    this.service.addProductsTocart(data).subscribe((result) =>{
     console.log("updated successfully");
     })
   }
