@@ -40,9 +40,9 @@
       "id": 4
     },
     {
-      "Catogery": "Electricals",
-      "Name": "IPhone",
-      "Price": "45000",
+      "Catogery": "clothing",
+      "Name": "saree",
+      "Price": "4500",
       "img": [
         "1.jpg",
         "2.jpg"
@@ -50,12 +50,12 @@
       "id": 5
     },
     {
-      "Catogery": "Electricals",
-      "Name": "IPhone",
-      "Price": "45000",
+      "Catogery": "clothing",
+      "Name": "tshirts",
+      "Price": "450",
       "img": [
-        "1.jpg",
-        "2.jpg"
+        "3.jpg",
+        "4.jpg"
       ],
       "id": 6
     },
@@ -70,74 +70,14 @@
       "id": 7
     },
     {
-      "Catogery": "Electricals",
-      "Name": "IPhone",
-      "Price": "45000",
+      "Catogery": "clothing",
+      "Name": "tshirts",
+      "Price": "450",
       "img": [
-        "1.jpg",
-        "2.jpg"
+        "3.jpg",
+        "4.jpg"
       ],
       "id": 8
-    },
-    {
-      "Catogery": "Electricals",
-      "Name": "IPhone",
-      "Price": "45000",
-      "img": [
-        "1.jpg",
-        "2.jpg"
-      ],
-      "id": 9
-    },
-    {
-      "Catogery": "Electricals",
-      "Name": "IPhone",
-      "Price": "45000",
-      "img": [
-        "1.jpg",
-        "2.jpg"
-      ],
-      "id": 10
-    },
-    {
-      "Catogery": "Electricals",
-      "Name": "IPhone",
-      "Price": "45000",
-      "img": [
-        "1.jpg",
-        "2.jpg"
-      ],
-      "id": 11
-    },
-    {
-      "id": 12
-    },
-    {
-      "id": 13
-    },
-    {
-      "id": 14
-    },
-    {
-      "id": 15
-    },
-    {
-      "id": 16
-    },
-    {
-      "id": 17
-    },
-    {
-      "id": 18
-    },
-    {
-      "id": 19
-    },
-    {
-      "id": 20
-    },
-    {
-      "id": 21
     }
   ]
 }

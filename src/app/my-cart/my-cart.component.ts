@@ -8,23 +8,24 @@ import { ProductDetailsService } from '../product-details.service';
 })
 export class MyCartComponent implements OnInit {
   total:any;
-  
   constructor(private mycart : ProductDetailsService) { }
-    cartdetails : any;
+    cartdetails :any;
 
 
   ngOnInit() {
     this.mycart.getProductsFromcart().subscribe((result) =>{
     console.log(result);
     this.cartdetails=result;
+    this.add();
     })
   }
 
- add() {
+ add(){
     this.total=0;
-    for(let  i=0; i <this.cartdetails.length; i++) 
+    for(let i=0; i < this.cartdetails.length; i++) 
     {
-      this.total = this.total + this.cartdetails[i].Price;
+    this.total=parseInt(this.total) + parseInt(this.cartdetails[i].Price);
+   
       }
     }
   }
